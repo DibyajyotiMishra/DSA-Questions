@@ -8,6 +8,6 @@ class Solution {
             max = Math.max(sum,max);
             if(sum < 0) sum = 0;
         }
-        return sum;
+        return max;
     }
 }
